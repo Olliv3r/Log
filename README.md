@@ -7,7 +7,7 @@ Login de inicialização doinux
 
 2 apt install git python
 
-3 git clone https://github.com/Tioolive/Log
+3 git clone https://github.com/Olliv3r/Log
 
 4 cd Log
 
@@ -17,13 +17,15 @@ Login de inicialização doinux
 
 7 chmod +x $PREFIX/bin/log
 
+
+1 usuario padrao é
 * root
-* A senha padrao e
+2 A senha padrao e
 * toor
 
-* para trocar o usuario
+1 para trocar o usuario
 * sed -i "s/root/usuario/g" > $PREFIX/bin/log.py
-* para trocar a senha
+2 para trocar a senha
 * sed -i "s/toor/senha/g" > $PREFIX/bin/log.py
 
 * exemplo:
