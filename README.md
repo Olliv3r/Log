@@ -18,9 +18,11 @@ Login de inicialização doinux
 7 chmod +x $PREFIX/bin/log
 
 
-1 usuario padrao é *root*
-
-2A senha padrao e  *toor*
+ 
+1 Usuario
+* root
+1 Senha
+* toor
 
 1 para trocar o usuario
 * sed -i "s/root/usuario/g" > $PREFIX/bin/log.py
