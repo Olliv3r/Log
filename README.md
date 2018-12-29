@@ -19,9 +19,8 @@ Login de inicialização doinux
 
 
  
-1 Usuario
+1 Usuário e senha padrão
 * root
-1 Senha
 * toor
 
 1 para trocar o usuario
