@@ -17,13 +17,13 @@
 * toor
 
 + para trocar o usuario
-* sed -i "s/root/usuario/g" > $PREFIX/bin/log.py
+* sed -i "s/root/usuario/g" $PREFIX/bin/log.py
 + para trocar a senha
-* sed -i "s/toor/senha/g" > $PREFIX/bin/log.py
+* sed -i "s/toor/senha/g" $PREFIX/bin/log.py
 
 + exemplo:
 
-*	sed -i "s/root/olive/g" > $PREFIX/bin/log.py
-*	sed -i "s/toor/evilo/g" > $PREFIX/bin/log py
+*	sed -i "s/root/olive/g" $PREFIX/bin/log.py
+*	sed -i "s/toor/evilo/g" $PREFIX/bin/log py
 
 + Copyring oliveObom
