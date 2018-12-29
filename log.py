@@ -6,6 +6,7 @@ from time import sleep as s
 from os import system as S
 
 def banner():
+    S('clear')
     print("""\033[01;92m
 ─────█─▄▀█──█▀▄─█───── 
 ────▐▌──────────▐▌──── 

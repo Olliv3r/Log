@@ -1,0 +1,27 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+apt update
+apt install python ruby dialog
+
+gem install lolcat
+
+cat ~/Log/log.py > $PREFIX/bin/log
+
+dir=$PREFIX/bin
+
+chmod +x $dir/log
+
+dir=$PREFIX/etc
+printf "log" > ~/.bashrc
+
+echo "\033[0096mSeu usuario é \033[0m '\033[00;91mroot\033[0m'\033[00;96m e sua senha é \033[0m'\033[01;91mtoor\033[0m'"
+
+echo -n "Fecha o termux? y/n : " | lolcat ;read r
+if [ "$r" = "y" ];then
+echo "Saindo"
+sleep 1
+killall -9 com.termux
+else
+echo ""
+echo "voce deve sair do termux para login ser configurado" | lolcat
+fi
