@@ -16,7 +16,7 @@ def banner():
            \n    
            \033[01;91mBy: \033[02;96molive\033[0m
            \033[01;91mChannel: \033[02;96mTio olive\n
-\033[02;93mLogin do usuario do linux
+\033[02;93mLogin do usuario do linux, Impedindo que certas pessoas, acessam seus dados do servidor linux
 """)
 
 # tool padrao
