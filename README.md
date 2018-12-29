@@ -19,7 +19,7 @@ Login de inicialização doinux
 
 
  
-1 Usuário e senha padrão
++ Usuário e senha padrão
 * root
 * toor
 
