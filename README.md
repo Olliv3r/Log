@@ -3,37 +3,33 @@ Login de inicialização doinux
 
 # Instalacao do script
 
-apt update
+1 apt update
 
-apt install git python
+2 apt install git python
 
-git clone https://github.com/Tioolive/Log
+3 git clone https://github.com/Tioolive/Log
 
-cd Log
+4 cd Log
 
-cat log.py > $PREFIX/bin/log
+5 cat log.py > $PREFIX/bin/log
 
-printf "log" >> $PREFIX/etc/bash.bashrc
+6 printf "log" >> ~/.bashrc
 
-chmod +x $PREFIX/bin/log
+7 chmod +x $PREFIX/bin/log
 
-# O usuario padrao e
-root
-# A senha padrao e
-toor
+* root
+* A senha padrao e
+* toor
 
-# para trocar o usuario
-sed -i "s/root/usuario/g" > $PREFIX/bin/log.py
-# para trocar a senha
-sed -i "s/toor/senha/g" > $PREFIX/bin/log.py
+* para trocar o usuario
+* sed -i "s/root/usuario/g" > $PREFIX/bin/log.py
+* para trocar a senha
+* sed -i "s/toor/senha/g" > $PREFIX/bin/log.py
 
-exemplo:
+* exemplo:
 
-	sed -i "s/root/olive/g" > $PREFIX/bin/log.py
-	sed -i "s/toor/evilo/g" > $PREFIX/bin/log py
-
-
-
-
+*	sed -i "s/root/olive/g" > $PREFIX/bin/log.py
+*	sed -i "s/toor/evilo/g" > $PREFIX/bin/log py
+*
 
 Copyring oliveObom
