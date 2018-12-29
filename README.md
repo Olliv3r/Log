@@ -1,21 +1,14 @@
 # Log
-Login de inicialização doinux
+# Login de inicialização do linux
 
-# Instalacao do script
-
-1 apt update
-
-2 apt install git python
-
-3 git clone https://github.com/Olliv3r/Log
-
-4 cd Log
-
-5 cat log.py > $PREFIX/bin/log
-
-6 printf "log" >> ~/.bashrc
-
-7 chmod +x $PREFIX/bin/log
++ Instalacao do script
+ * apt update
+ * apt install git python
+ * git clone https://github.com/Olliv3r/Log
+ * cd Log
+ * cat log.py > $PREFIX/bin/log
+ * printf "log" >> ~/.bashrc
+ * chmod +x $PREFIX/bin/log
 
 
  
@@ -23,15 +16,14 @@ Login de inicialização doinux
 * root
 * toor
 
-1 para trocar o usuario
++ para trocar o usuario
 * sed -i "s/root/usuario/g" > $PREFIX/bin/log.py
-2 para trocar a senha
++ para trocar a senha
 * sed -i "s/toor/senha/g" > $PREFIX/bin/log.py
 
-* exemplo:
++ exemplo:
 
 *	sed -i "s/root/olive/g" > $PREFIX/bin/log.py
 *	sed -i "s/toor/evilo/g" > $PREFIX/bin/log py
-*
 
-Copyring oliveObom
++ Copyring oliveObom
